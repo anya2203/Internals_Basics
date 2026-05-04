@@ -96,7 +96,5 @@ Located in `results/`:
 Ananya
 ```
 
----
-
 
 
