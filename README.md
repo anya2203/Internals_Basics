@@ -10,23 +10,23 @@
 
 # 
 
-# \----------------------------------------
+# \--------------------------------------------------
 
 # 
 
 # TASK 1: Model Comparison
 
-# \- Trained Ridge and GradientBoosting
+# \- Trained Ridge and GradientBoosting models
 
-# \- Used MLflow
+# \- Used MLflow for experiment tracking
 
 # \- Evaluated using MAE and RMSE
 
-# \- Selected best model (Ridge)
+# \- Selected best model based on MAE (Ridge)
 
 # 
 
-# \----------------------------------------
+# \--------------------------------------------------
 
 # 
 
@@ -34,45 +34,71 @@
 
 # \- Used RandomizedSearchCV
 
-# \- 3-fold CV
+# \- 3-fold cross-validation
 
-# \- Tuned GradientBoosting
+# \- Tuned GradientBoosting model
 
-# \- Parameters: n\_estimators, learning\_rate, max\_depth
+# \- Parameters used:
+
+# &#x20; n\_estimators, learning\_rate, max\_depth
 
 # 
 
-# \----------------------------------------
+# \--------------------------------------------------
 
 # 
 
 # TASK 3: Docker
 
-# \- Created CLI tool (predict\_cli.py)
+# \- Created CLI prediction tool (predict\_cli.py)
 
 # \- Built Docker image: solaredge-predictor:v1
 
-# \- Tested prediction using docker run
+# \- Ran container and generated predictions
 
 # 
 
-# \----------------------------------------
+# \--------------------------------------------------
 
 # 
 
 # TASK 4: Retraining
 
-# \- Combined training + new data
+# \- Combined training\_data.csv and new\_data.csv
 
 # \- Retrained model
 
-# \- Compared MAE
+# \- Compared MAE with original model
 
-# \- Promoted if improved
+# \- Promoted model if improvement observed
 
 # 
 
-# \----------------------------------------
+# \--------------------------------------------------
+
+# 
+
+# PROJECT STRUCTURE
+
+# 
+
+# MLOPs\_Lab\_CIE/
+
+# &#x20; data/
+
+# &#x20; models/
+
+# &#x20; results/
+
+# &#x20; src/
+
+# &#x20; Dockerfile
+
+# &#x20; requirements.txt
+
+# 
+
+# \--------------------------------------------------
 
 # 
 
@@ -88,21 +114,21 @@
 
 # 
 
-# \----------------------------------------
+# \--------------------------------------------------
 
 # 
 
-# Tech Stack:
+# TECH STACK
 
 # Python, Scikit-learn, MLflow, Docker
 
 # 
 
-# \----------------------------------------
+# \--------------------------------------------------
 
 # 
 
-# Author:
+# AUTHOR
 
 # Ananya
 
