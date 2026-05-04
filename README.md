@@ -1,126 +1,82 @@
-# \# Internals\_Basics
+# Internals\_Basics
 
 # 
 
-# \## MLOps Lab CIE Submission
+# MLOps Lab CIE Submission
 
 # 
 
-# This repository contains the implementation of a complete MLOps pipeline for predicting solar power output.
+# This repository contains a complete MLOps pipeline for solar power prediction.
 
 # 
 
-# \---
+# \----------------------------------------
 
 # 
 
-# \## 📌 Tasks Completed
+# TASK 1: Model Comparison
+
+# \- Trained Ridge and GradientBoosting
+
+# \- Used MLflow
+
+# \- Evaluated using MAE and RMSE
+
+# \- Selected best model (Ridge)
 
 # 
 
-# \### 🔹 Task 1 — Experiment Tracking \& Model Comparison
-
-# \- Trained \*\*Ridge\*\* and \*\*GradientBoosting\*\* models
-
-# \- Used \*\*MLflow\*\* for experiment tracking
-
-# \- Evaluated using:
-
-# &#x20; - MAE
-
-# &#x20; - RMSE
-
-# \- Selected best model based on MAE
+# \----------------------------------------
 
 # 
 
-# \---
+# TASK 2: Hyperparameter Tuning
+
+# \- Used RandomizedSearchCV
+
+# \- 3-fold CV
+
+# \- Tuned GradientBoosting
+
+# \- Parameters: n\_estimators, learning\_rate, max\_depth
 
 # 
 
-# \### 🔹 Task 2 — Hyperparameter Tuning
-
-# \- Used \*\*RandomizedSearchCV\*\*
-
-# \- 3-fold cross-validation
-
-# \- Tuned \*\*GradientBoosting\*\* using:
-
-# &#x20; - n\_estimators
-
-# &#x20; - learning\_rate
-
-# &#x20; - max\_depth
-
-# \- Logged runs in MLflow
+# \----------------------------------------
 
 # 
 
-# \---
+# TASK 3: Docker
+
+# \- Created CLI tool (predict\_cli.py)
+
+# \- Built Docker image: solaredge-predictor:v1
+
+# \- Tested prediction using docker run
 
 # 
 
-# \### 🔹 Task 3 — Docker Packaging
-
-# \- Created CLI prediction tool (`predict\_cli.py`)
-
-# \- Built Docker image:
-
-# &#x20; solaredge-predictor:v1
-
-# \- Tested prediction via Docker container
+# \----------------------------------------
 
 # 
 
-# \---
-
-# 
-
-# \### 🔹 Task 4 — Retraining Pipeline
+# TASK 4: Retraining
 
 # \- Combined training + new data
 
 # \- Retrained model
 
-# \- Compared MAE with champion model
+# \- Compared MAE
 
-# \- Promoted model if improvement observed
-
-# 
-
-# \---
+# \- Promoted if improved
 
 # 
 
-# \## 📁 Project Structure
+# \----------------------------------------
 
 # 
 
-# MLOPs\_Lab\_CIE/
-
-# │── data/
-
-# │── models/
-
-# │── results/
-
-# │── src/
-
-# │── Dockerfile
-
-# │── requirements.txt
-
-# 
-
-# \---
-
-# 
-
-# \## 📊 Output Files
-
-# 
-
-# Located in `results/`:
+# OUTPUT FILES (results/)
 
 # \- step1\_s1.json
 
@@ -132,27 +88,21 @@
 
 # 
 
-# \---
+# \----------------------------------------
 
 # 
 
-# \## ⚙️ Tech Stack
+# Tech Stack:
 
-# \- Python
-
-# \- Scikit-learn
-
-# \- MLflow
-
-# \- Docker
+# Python, Scikit-learn, MLflow, Docker
 
 # 
 
-# \---
+# \----------------------------------------
 
 # 
 
-# \## 👩‍💻 Author
+# Author:
 
 # Ananya
 
