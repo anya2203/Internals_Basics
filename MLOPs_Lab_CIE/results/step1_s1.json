@@ -1,0 +1,18 @@
+{
+    "experiment_name": "solaredge-power-output-kwh",
+    "models": [
+        {
+            "name": "Ridge",
+            "mae": 15.888919187598521,
+            "rmse": 19.242803253352275
+        },
+        {
+            "name": "GradientBoosting",
+            "mae": 28.797896381743776,
+            "rmse": 42.803468552175296
+        }
+    ],
+    "best_model": "Ridge",
+    "best_metric_name": "mae",
+    "best_metric_value": 15.888919187598521
+}

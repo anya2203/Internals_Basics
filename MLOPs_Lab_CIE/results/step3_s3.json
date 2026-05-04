@@ -1,0 +1,12 @@
+{
+    "image_name": "solaredge-predictor",
+    "image_tag": "v1",
+    "base_image": "python:3.11-slim",
+    "test_input": {
+        "panel_area_sqm": 27.5,
+        "sunlight_hours": 8.1,
+        "cloud_cover_pct": 33.3,
+        "panel_age_years": 10
+    },
+    "prediction": 135.09
+}
